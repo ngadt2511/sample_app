@@ -1,2 +1,42 @@
 vi:
   hello_world: "Xin chào thế giới"
+  layouts:
+    application:
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
+      suffix_title: "Ruby on Rails Tutorial ứng dụng mẫu"
+  static_pages:
+    about:
+      title: "Về chúng tôi"
+      heading: "Về chúng tôi"
+      the: ""
+      part: "một phần của"
+      learn: "Learn Enough,"
+      family: "nhóm những hướng dẫn, là một"
+      book: "cuốn sách"
+      and: "và"
+      scr: "screencast series"
+      to: "để dạy phát triển web với"
+      tutorial: "Ruby on Rails Tutorial"
+      ror: "Ruby on Rails"
+      this: "Đây là ứng dụng mẫu cơ bản để hướng dẫn"
+    contact:
+      title: "Liên hệ"
+      heading: "Liên hệ"
+      content: "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại"
+      page: "trang liên hệ"
+    help:
+      title: "Trợ giúp"
+      heading: "Trợ giúp"
+      content:
+      get: "Nhận trợ giúp về hướng dẫn Ruby on Rails tại trang "
+      page: "Rails Tutorial."
+      see: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem trong sách "
+      book: "Ruby on Rails Tutorial."
+    home:
+      title: "Trang chủ"
+      heading: "Ứng dụng mẫu"
+      content:
+      this: "Đây là trang chủ cho ứng dụng mẫu"
+      tutorial: "Ruby on Rails"
+      sample: "."
