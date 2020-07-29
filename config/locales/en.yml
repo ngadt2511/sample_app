@@ -1,5 +1,6 @@
 en:
   author: Michael Hartl
+  error: Error
   hello_world: Hello world
   layouts:
     application:
@@ -14,9 +15,21 @@ en:
       about: About
       by: by
       contact: Contact
+      news: News
       ror: Ruby on Rails Tutorial
       the: The
+    header:
+      help: Help
+      home: Home
+      log_in: Log in
+      sample_app: Sample App
   news: News
+  password: Password
+  password_confirmation: Password Confirmation
+  shared:
+    error_messages:
+      error: error
+      the_form_contains: The form contains
   static_pages:
     about:
       and: and
@@ -51,7 +64,18 @@ en:
       this: This is the home page for the
       title: Home
       tutorial: Ruby on Rails Tutorial
+  the_form_contains: The form contains
   users:
+    create:
+      success: Welcome to the Sample App!
+      fail_create: Account create fail.
     new:
+      confirmation: Confimation
+      create_my_account: Create my account
+      email: Email
+      name: Name
+      password: Password
       sign_up: Sign up
       sign_up_page: This will be a signup page for new users.
+    show:
+      fail_show: Account not found.
