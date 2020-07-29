@@ -1,6 +1,9 @@
 class User < ApplicationRecord
   VALID_EMAIL_REGEX = Settings.validation.email.regex
   USERS_PARAMS = %i(name email password password_confirmation).freeze
+
+  has_many :microposts, dependent: :destroy
+
   attr_accessor :remember_token, :activation_token, :reset_token
 
   validates :name, presence: true,
@@ -68,6 +71,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.time.expried.hours.ago
+  end
+
+  def feed
+    microposts
   end
 
   private

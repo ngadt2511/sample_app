@@ -27,3 +27,18 @@ checkbox: 1
 pagination: 10
 time:
   expried: 2
+micropost:
+  content:
+    max_length: 140
+shared:
+  user_info_length: 50
+pages:
+  limit: 5
+files:
+  pic_resize: 500
+  pic_size: 5
+image:
+  valid_input: image/jpeg,image/gif,image/png
+static_pages:
+  home:
+    image_size: 200px
