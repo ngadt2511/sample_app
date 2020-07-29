@@ -25,3 +25,5 @@ users:
     size_gravatar: 50
 checkbox: 1
 pagination: 10
+time:
+  expried: 2

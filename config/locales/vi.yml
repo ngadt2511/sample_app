@@ -1,5 +1,9 @@
 vi:
   You sure?: Bạn chắc chắn chưa?
+  account_activations:
+    edit:
+      account_activated: Tài khoản đã được kích hoạt.
+      invalid_link: Liên kết kích hoạt không hợp lệ.
   author: Michael Hartl
   error: Lỗi
   hello_world: Xin chào thế giới
@@ -18,7 +22,7 @@ vi:
       contact: Liên hệ
       news: Tin tức
       ror: Hướng dẫn Ruby on Rais
-      the: ''
+      the: " "
     header:
       account: Tài khoản
       help: Trợ giúp
@@ -30,17 +34,39 @@ vi:
       settings: Cài đặt
       users: Người dùng
   mailers:
+    password_reset:
+      password_reset: Đặt lại mật khẩu
     user_mailer:
       account_activation:
         account_activation: Kích hoạt tài khoản
   news: Tin tức
   password: Mật khẩu
   password_confirmation: Xác nhận mật khẩu
+  password_resets:
+    check_expiration:
+      expired: Đặt lại mật khẩu đã hết hạn
+    create:
+      email_not_found: Email address not found
+      email_sent: Email sent with password reset instructions
+    edit:
+      confirmation: Xác nhận
+      password: Mật khẩu
+      reset_password: Đặt lại mật khẩu
+      update_password: Cập nhật mật khẩu
+    new:
+      forgot_password: Quên mật khẩu
+      submit: Gửi
+    update:
+      can't_be _empty: Không thể trống
+      pw_reset: Mật khẩu đã được đặt lại
+    get_user:
+      not_found: Không tìm thấy người dùng.
   remember_me: Nhớ tôi
   sessions:
     create:
       danger: Email / mật khẩu không hợp lệ
     new:
+      forgot_password: Quên mật khẩu
       log_in: Đăng nhập
       log_in_title: Đăng nhập
       new_user: Người dùng mới?
@@ -68,7 +94,7 @@ vi:
       part: một phần của
       ror: Ruby on Rails
       scr: screencast series
-      the: ''
+      the: " "
       this: Đây là ứng dụng mẫu cơ bản để hướng dẫn
       title: Về chúng tôi
       to: để dạy phát triển web với
@@ -80,30 +106,36 @@ vi:
       title: Liên hệ
     help:
       book: Ruby on Rails Tutorial.
-      get: 'Nhận trợ giúp về hướng dẫn Ruby on Rails tại trang '
+      get: "Nhận trợ giúp về hướng dẫn Ruby on Rails tại trang "
       heading: Trợ giúp
       page: Rails Tutorial.
-      see: 'Để nhận trợ giúp về ứng dụng mẫu này, hãy xem trong sách '
+      see: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem trong sách "
       title: Trợ giúp
     home:
       heading: Ứng dụng mẫu
       sample: .
-      sign_up_now: Đăng nhập ngay!
+      sign_up_now: Đăng ký ngay!
       this: Đây là trang chủ cho ứng dụng mẫu
       title: Trang chủ
       tutorial: Ruby on Rails
   the_form_contains: Form có
   user_mailer:
     account_activation:
-      activate: 'Kích hoạt '
-      hi: 'Xin chào '
-      sample_app: 'Ứng dụng mẫu '
+      activate: "Kích hoạt "
+      hi: "Xin chào "
+      sample_app: "Ứng dụng mẫu "
       welcome: Chào mừng đến với ứng dụng mẫu. Click vào link bên dưới để kích hoạt tài khoản
+    password_reset:
+      link_exprie: Link này có hiệu lực trong 2 giờ.
+      not_reset: Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ.
+      password_reset: Đặt lại mật khẩu
+      password_reset_link: "Để đặt lại mật khẩu cần click vào link dưới đây:"
+      reset password: Đặt lại mật khẩu
   users:
     create:
       fail_create: Tài khoản tạo thất bại.
-      success: Chào mừng đến với ứng dụng mẫu.
       pls_check: Hãy kiểm tra email của bạn để kích hoạt tài khoản.
+      success: Chào mừng đến với ứng dụng mẫu.
     destroy:
       success_delete: Đã xoá người dùng.
     edit:
@@ -141,7 +173,3 @@ vi:
     user:
       delete: Xoá
       you_sure?: Bạn chắc chắn chưa?
-  account_activations:
-    edit:
-      account_activated: Tài khoản đã được kích hoạt.
-      invalid_link: Liên kết kích hoạt không hợp lệ.
