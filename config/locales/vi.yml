@@ -1,42 +1,57 @@
 vi:
-  hello_world: "Xin chào thế giới"
+  author: Michael Hartl
+  hello_world: Xin chào thế giới
   layouts:
     application:
-      en: "Tiếng Anh"
-      vi: "Tiếng Việt"
-      suffix_title: "Ruby on Rails Tutorial ứng dụng mẫu"
+      en: Tiếng Anh
+      help: Trợ giúp
+      home: Trang chủ
+      log_in: Đăng nhập
+      sample_app: Ứng dụng mẫu
+      suffix_title: Ruby on Rails Tutorial ứng dụng mẫu
+      vi: Tiếng Việt
+    footer:
+      about: Về chúng tôi
+      by: bởi
+      contact: Liên hệ
+      ror: Hướng dẫn Ruby on Rais
+      the: ''
+  news: Tin tức
   static_pages:
     about:
-      title: "Về chúng tôi"
-      heading: "Về chúng tôi"
-      the: ""
-      part: "một phần của"
-      learn: "Learn Enough,"
-      family: "nhóm những hướng dẫn, là một"
-      book: "cuốn sách"
-      and: "và"
-      scr: "screencast series"
-      to: "để dạy phát triển web với"
-      tutorial: "Ruby on Rails Tutorial"
-      ror: "Ruby on Rails"
-      this: "Đây là ứng dụng mẫu cơ bản để hướng dẫn"
+      and: và
+      book: cuốn sách
+      family: nhóm những hướng dẫn, là một
+      heading: Về chúng tôi
+      learn: Learn Enough,
+      part: một phần của
+      ror: Ruby on Rails
+      scr: screencast series
+      the: ''
+      this: Đây là ứng dụng mẫu cơ bản để hướng dẫn
+      title: Về chúng tôi
+      to: để dạy phát triển web với
+      tutorial: Ruby on Rails Tutorial
     contact:
-      title: "Liên hệ"
-      heading: "Liên hệ"
-      content: "Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại"
-      page: "trang liên hệ"
+      content: Liên hệ Ruby on Rails Tutorial về ứng dụng mẫu tại
+      heading: Liên hệ
+      page: trang liên hệ
+      title: Liên hệ
     help:
-      title: "Trợ giúp"
-      heading: "Trợ giúp"
-      content:
-      get: "Nhận trợ giúp về hướng dẫn Ruby on Rails tại trang "
-      page: "Rails Tutorial."
-      see: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem trong sách "
-      book: "Ruby on Rails Tutorial."
+      book: Ruby on Rails Tutorial.
+      get: 'Nhận trợ giúp về hướng dẫn Ruby on Rails tại trang '
+      heading: Trợ giúp
+      page: Rails Tutorial.
+      see: 'Để nhận trợ giúp về ứng dụng mẫu này, hãy xem trong sách '
+      title: Trợ giúp
     home:
-      title: "Trang chủ"
-      heading: "Ứng dụng mẫu"
-      content:
-      this: "Đây là trang chủ cho ứng dụng mẫu"
-      tutorial: "Ruby on Rails"
-      sample: "."
+      heading: Ứng dụng mẫu
+      sample: .
+      sign_up_now: Đăng nhập ngay!
+      this: Đây là trang chủ cho ứng dụng mẫu
+      title: Trang chủ
+      tutorial: Ruby on Rails
+  users:
+    new:
+      sign_up: Đăng ký
+      sign_up_page: Đây sẽ là một trang đăng ký cho người dùng mới.
