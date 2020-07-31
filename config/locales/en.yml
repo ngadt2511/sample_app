@@ -1,71 +1,57 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello_world: "Hello world"
+  author: Michael Hartl
+  hello_world: Hello world
   layouts:
     application:
-      en: "English"
-      vi: "Vietnamese"
-      suffix_title: "Ruby on Rails Tutorial Sample App"
+      en: English
+      help: Help
+      home: Home
+      log_in: Log in
+      sample_app: Sample App
+      suffix_title: Ruby on Rails Tutorial Sample App
+      vi: Vietnamese
+    footer:
+      about: About
+      by: by
+      contact: Contact
+      ror: Ruby on Rails Tutorial
+      the: The
+  news: News
   static_pages:
     about:
-      title: "About"
-      heading: "About"
-      the: "The"
-      part: "part of the"
-      learn: "Learn Enough"
-      family: "family of tutorials, is a"
-      book: "book"
-      and: "and"
-      scr: "screencast series"
-      to: "to teach web development with."
-      tutorial: "Ruby on Rails Tutorial"
-      ror: "Ruby on Rails"
-      this: "This is the sample app for the tutorial"
+      and: and
+      book: book
+      family: family of tutorials, is a
+      heading: About
+      learn: Learn Enough
+      part: part of the
+      ror: Ruby on Rails
+      scr: screencast series
+      the: The
+      this: This is the sample app for the tutorial
+      title: About
+      to: to teach web development with.
+      tutorial: Ruby on Rails Tutorial
     contact:
-      title: "Contact"
-      heading: "Contact"
-      content: "Contact the Ruby on Rails Tutorial about the sample app at the"
-      page: "contact page"
+      content: Contact the Ruby on Rails Tutorial about the sample app at the
+      heading: Contact
+      page: contact page
+      title: Contact
     help:
-      title: "Help"
-      heading: "Help"
-      get: "Get help on the Ruby on Rails Tutorial at the"
-      page: "Rails Tutorial Help page"
-      see: "To get help on this sample app, see the"
-      book: "Ruby on Rails Tutorial book"
+      book: Ruby on Rails Tutorial book
+      get: Get help on the Ruby on Rails Tutorial at the
+      heading: Help
+      page: Rails Tutorial Help page
+      see: To get help on this sample app, see the
+      title: Help
     home:
-      title: "Home"
-      heading: "Sample App"
-      this: "This is the home page for the"
-      tutorial: "Ruby on Rails Tutorial"
-      sample: "sample application."
+      heading: Sample App
+      sample: sample application.
+      sign_up_now: Sign up now!
+      this: This is the home page for the
+      title: Home
+      tutorial: Ruby on Rails Tutorial
+  users:
+    new:
+      sign_up: Sign up
+      sign_up_page: This will be a signup page for new users.
