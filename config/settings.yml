@@ -7,3 +7,11 @@ links:
     contact_page: https://www.railstutorial.org/contact
     author: https://www.michaelhartl.com/
   learn_enough: "https://www.learnenough.com/"
+validation:
+  name:
+    max_length: 50
+  email:
+    max_length: 255
+    regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
+  password:
+    min_length: 6
