@@ -26,16 +26,7 @@ vi:
   news: Tin tức
   password: Mật khẩu
   password_confirmation: Xác nhận mật khẩu
-  shared:
-    error_messages:
-      error: lỗi
-      the_form_contains: Form có chứa
-      account: Tài khoản
-      log_out: Đăng xuất
-      profile: Hồ sơ
-      settings: Cài đặt
-      users: Người dùng
-  news: Tin tức
+  remember_me: Nhớ tôi
   sessions:
     create:
       danger: Email / mật khẩu không hợp lệ
@@ -44,7 +35,17 @@ vi:
       log_in_title: Đăng nhập
       new_user: Người dùng mới?
       password: Mật khẩu
+      remember_me_content: Ghi nhớ tôi trên máy tính này
       sign_up_now: Đăng ký ngay
+  shared:
+    error_messages:
+      account: Tài khoản
+      error: lỗi
+      log_out: Đăng xuất
+      profile: Hồ sơ
+      settings: Cài đặt
+      the_form_contains: Form có chứa
+      users: Người dùng
   static_pages:
     about:
       and: và
@@ -82,8 +83,8 @@ vi:
   the_form_contains: Form có
   users:
     create:
-      success: Chào mừng đến với ứng dụng mẫu.
       fail_create: Tài khoản tạo thất bại.
+      success: Chào mừng đến với ứng dụng mẫu.
     new:
       confirmation: Xác nhận mật khẩu
       create_my_account: Tạo tài khoản của tôi
