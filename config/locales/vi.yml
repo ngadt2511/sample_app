@@ -1,5 +1,6 @@
 vi:
   author: Michael Hartl
+  error: Lỗi
   hello_world: Xin chào thế giới
   layouts:
     application:
@@ -14,9 +15,21 @@ vi:
       about: Về chúng tôi
       by: bởi
       contact: Liên hệ
+      news: Tin tức
       ror: Hướng dẫn Ruby on Rais
       the: ''
+    header:
+      help: Trợ giúp
+      home: Trang chủ
+      log_in: Đăng nhập
+      sample_app: Ứng dụng mẫu
   news: Tin tức
+  password: Mật khẩu
+  password_confirmation: Xác nhận mật khẩu
+  shared:
+    error_messages:
+      error: lỗi
+      the_form_contains: Form có chứa
   static_pages:
     about:
       and: và
@@ -51,7 +64,18 @@ vi:
       this: Đây là trang chủ cho ứng dụng mẫu
       title: Trang chủ
       tutorial: Ruby on Rails
+  the_form_contains: Form có
   users:
+    create:
+      success: Chào mừng đến với ứng dụng mẫu.
+      fail_create: Tài khoản tạo thất bại.
     new:
+      confirmation: Xác nhận mật khẩu
+      create_my_account: Tạo tài khoản của tôi
+      email: Email
+      name: Tên
+      password: Mật khẩu
       sign_up: Đăng ký
       sign_up_page: Đây sẽ là một trang đăng ký cho người dùng mới.
+    show:
+      fail_show: Không tìm thấy tài khoản
