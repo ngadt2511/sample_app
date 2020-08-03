@@ -12,9 +12,9 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(user_params)
+    @user = User.new user_params
     if @user.save
-      flash[:success] =  t ".success"
+      flash[:success] = t ".success"
       redirect_to @user
     else
       flash[:danger] = t ".fail_create"
@@ -25,7 +25,6 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    byebug
     params.require(:user).permit User::USERS_PARAMS
   end
 end

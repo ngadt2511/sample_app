@@ -30,6 +30,21 @@ en:
     error_messages:
       error: error
       the_form_contains: The form contains
+      account: Account
+      log_out: Log out
+      profile: Profile
+      settings: Settings
+      users: Users
+  news: News
+  sessions:
+    create:
+      danger: Invalid email/password combination
+    new:
+      log_in: Log in
+      log_in_title: Log in
+      new_user: New user?
+      password: Password
+      sign_up_now: Sign up now!
   static_pages:
     about:
       and: and
