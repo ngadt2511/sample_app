@@ -30,6 +30,21 @@ vi:
     error_messages:
       error: lỗi
       the_form_contains: Form có chứa
+      account: Tài khoản
+      log_out: Đăng xuất
+      profile: Hồ sơ
+      settings: Cài đặt
+      users: Người dùng
+  news: Tin tức
+  sessions:
+    create:
+      danger: Email / mật khẩu không hợp lệ
+    new:
+      log_in: Đăng nhập
+      log_in_title: Đăng nhập
+      new_user: Người dùng mới?
+      password: Mật khẩu
+      sign_up_now: Đăng ký ngay
   static_pages:
     about:
       and: và
