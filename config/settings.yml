@@ -18,4 +18,4 @@ validation:
 helpers:
   gravatar:
     size: 80
-
+checkbox: 1

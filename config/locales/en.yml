@@ -26,16 +26,7 @@ en:
   news: News
   password: Password
   password_confirmation: Password Confirmation
-  shared:
-    error_messages:
-      error: error
-      the_form_contains: The form contains
-      account: Account
-      log_out: Log out
-      profile: Profile
-      settings: Settings
-      users: Users
-  news: News
+  remember_me: Remember me
   sessions:
     create:
       danger: Invalid email/password combination
@@ -44,7 +35,17 @@ en:
       log_in_title: Log in
       new_user: New user?
       password: Password
+      remember_me_content: Remember me on this computer
       sign_up_now: Sign up now!
+  shared:
+    error_messages:
+      account: Account
+      error: error
+      log_out: Log out
+      profile: Profile
+      settings: Settings
+      the_form_contains: The form contains
+      users: Users
   static_pages:
     about:
       and: and
@@ -82,8 +83,8 @@ en:
   the_form_contains: The form contains
   users:
     create:
-      success: Welcome to the Sample App!
       fail_create: Account create fail.
+      success: Welcome to the Sample App!
     new:
       confirmation: Confimation
       create_my_account: Create my account
