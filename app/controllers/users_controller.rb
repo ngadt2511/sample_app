@@ -12,14 +12,18 @@ class UsersController < ApplicationController
     @users = User.page(params[:page]).per Settings.panagation
   end
 
-  def show; end
+  def show
+    return if @user.activated
+
+    redirect_to root_path
+  end
 
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ".success"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".pls_check"
+      redirect_to root_url
     else
       flash[:danger] = t ".fail_create"
       render :new
