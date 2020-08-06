@@ -1,4 +1,5 @@
 vi:
+  You sure?: Bạn chắc chắn chưa?
   author: Michael Hartl
   error: Lỗi
   hello_world: Xin chào thế giới
@@ -19,10 +20,15 @@ vi:
       ror: Hướng dẫn Ruby on Rais
       the: ''
     header:
+      account: Tài khoản
       help: Trợ giúp
       home: Trang chủ
       log_in: Đăng nhập
+      log_out: Đăng xuất
+      profile: Hồ sơ
       sample_app: Ứng dụng mẫu
+      settings: Cài đặt
+      users: Người dùng
   news: Tin tức
   password: Mật khẩu
   password_confirmation: Xác nhận mật khẩu
@@ -85,6 +91,28 @@ vi:
     create:
       fail_create: Tài khoản tạo thất bại.
       success: Chào mừng đến với ứng dụng mẫu.
+    destroy:
+      success_delete: Đã xoá người dùng.
+    edit:
+      change: Thay đổi
+      confirmation: Cập nhật mật khẩu
+      edit_user: Cập nhất người dùng
+      name: Tên
+      password: Mật khẩu
+      save_changes: Lưu thay đổi
+      update: Cập nhật hồ sơ của bạn
+    find_user:
+      not_found: Không tìm thấy người dùng
+    form:
+      confirmation: Xác nhận mật khẩu
+      create_my_account: Tạo tài khoản của tôi
+      email: Email
+      name: Tên
+      password: Mật khẩu
+    index:
+      all_users: Tất cả người dùng
+    logged_in_user:
+      pls_log_in: Hãy đăng nhập.
     new:
       confirmation: Xác nhận mật khẩu
       create_my_account: Tạo tài khoản của tôi
@@ -95,3 +123,8 @@ vi:
       sign_up_page: Đây sẽ là một trang đăng ký cho người dùng mới.
     show:
       fail_show: Không tìm thấy tài khoản
+    update:
+      success: Hồ sơ đã được cập nhật
+    user:
+      delete: Xoá
+      you_sure?: Bạn chắc chắn chưa?

@@ -10,7 +10,7 @@ class User < ApplicationRecord
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: {case_sensitive: false}
   validates :password, presence: true,
-    length: {minimum: Settings.validation.password.min_length}
+    length: {minimum: Settings.validation.password.min_length}, allow_nil: true
 
   before_save :email_downcase
 
@@ -40,7 +40,7 @@ class User < ApplicationRecord
   end
 
   def forget
-    update :remember_digest, nil
+    update remember_digest: nil
   end
 
   private

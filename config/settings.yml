@@ -18,4 +18,10 @@ validation:
 helpers:
   gravatar:
     size: 80
+users:
+  edit:
+    gravatar_link: https://gravatar.com/emails
+  index:
+    size_gravatar: 50
 checkbox: 1
+pagination: 10

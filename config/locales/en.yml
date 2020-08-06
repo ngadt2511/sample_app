@@ -1,4 +1,5 @@
 en:
+  You sure?: You sure?
   author: Michael Hartl
   error: Error
   hello_world: Hello world
@@ -19,10 +20,15 @@ en:
       ror: Ruby on Rails Tutorial
       the: The
     header:
+      account: Account
       help: Help
       home: Home
       log_in: Log in
+      log_out: Log out
+      profile: Profile
       sample_app: Sample App
+      settings: Settings
+      users: Users
   news: News
   password: Password
   password_confirmation: Password Confirmation
@@ -85,6 +91,28 @@ en:
     create:
       fail_create: Account create fail.
       success: Welcome to the Sample App!
+    destroy:
+      success_delete: User deleted.
+    edit:
+      change: Change
+      confirmation: Confirmation
+      edit_user: Edit user
+      name: Name
+      password: Password
+      save_changes: Save changes
+      update: Update your profile
+    find_user:
+      not_found: User not found
+    form:
+      confirmation: Confirm password
+      create_my_account: Create my account
+      email: email
+      name: Name
+      password: Password
+    index:
+      all_users: All users
+    logged_in_user:
+      pls_log_in: Please log in.
     new:
       confirmation: Confimation
       create_my_account: Create my account
@@ -95,3 +123,8 @@ en:
       sign_up_page: This will be a signup page for new users.
     show:
       fail_show: Account not found.
+    update:
+      success: Profile updated
+    user:
+      delete: Delete
+      you_sure?: You sure?
