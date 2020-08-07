@@ -29,6 +29,10 @@ en:
       sample_app: Sample App
       settings: Settings
       users: Users
+  mailers:
+    user_mailer:
+      account_activation:
+        account_activation: Account activation
   news: News
   password: Password
   password_confirmation: Password Confirmation
@@ -43,6 +47,8 @@ en:
       password: Password
       remember_me_content: Remember me on this computer
       sign_up_now: Sign up now!
+    user_authenticated_handle:
+      account_not_activated: Account not activated.Check your email for the activation link.
   shared:
     error_messages:
       account: Account
@@ -87,10 +93,17 @@ en:
       title: Home
       tutorial: Ruby on Rails Tutorial
   the_form_contains: The form contains
+  user_mailer:
+    account_activation:
+      activate: 'Activate '
+      hi: Hi
+      sample_app: 'Sample app '
+      welcome: 'Welcome to the Sample App! Click on the link below to activate your account:'
   users:
     create:
       fail_create: Account create fail.
       success: Welcome to the Sample App!
+      pls_check: Please check your email to activate your account.
     destroy:
       success_delete: User deleted.
     edit:
@@ -128,3 +141,7 @@ en:
     user:
       delete: Delete
       you_sure?: You sure?
+  account_activations:
+    edit:
+      account_activated: Account activated!
+      invalid_link: Invalid activation link
