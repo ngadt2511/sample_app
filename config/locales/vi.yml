@@ -1,4 +1,7 @@
 vi:
+  <%= @user:
+    microposts:
+      count %>: Bài đăng nhỏ
   You sure?: Bạn chắc chắn chưa?
   account_activations:
     edit:
@@ -7,6 +10,9 @@ vi:
   author: Michael Hartl
   error: Lỗi
   hello_world: Xin chào thế giới
+  application:
+    logged_in_user:
+      please_log_in: Hãy đăng nhập
   layouts:
     application:
       en: Tiếng Anh
@@ -22,7 +28,7 @@ vi:
       contact: Liên hệ
       news: Tin tức
       ror: Hướng dẫn Ruby on Rais
-      the: " "
+      the: ' '
     header:
       account: Tài khoản
       help: Trợ giúp
@@ -36,9 +42,17 @@ vi:
   mailers:
     password_reset:
       password_reset: Đặt lại mật khẩu
-    user_mailer:
-      account_activation:
-        account_activation: Kích hoạt tài khoản
+  microposts:
+    destroy:
+      micropost_deleted: Bài đăng nhỏ đã được xoá
+    micropost:
+      ago: trước
+      delete: Xoá
+      posted: Đã được đăng
+      you_sure: Bạn chắc chắn chưa?
+    save_micropost:
+      micropost_created: Bài đăng nhỏ đã được tạo
+      micropost_fail: Bài đăng nhỏ tạo thất bại
   news: Tin tức
   password: Mật khẩu
   password_confirmation: Xác nhận mật khẩu
@@ -53,14 +67,14 @@ vi:
       password: Mật khẩu
       reset_password: Đặt lại mật khẩu
       update_password: Cập nhật mật khẩu
+    get_user:
+      not_found: Không tìm thấy người dùng.
     new:
       forgot_password: Quên mật khẩu
       submit: Gửi
     update:
       can't_be _empty: Không thể trống
       pw_reset: Mật khẩu đã được đặt lại
-    get_user:
-      not_found: Không tìm thấy người dùng.
   remember_me: Nhớ tôi
   sessions:
     create:
@@ -84,6 +98,12 @@ vi:
       settings: Cài đặt
       the_form_contains: Form có chứa
       users: Người dùng
+    micropost_form:
+      compose_new_micropost: Soạn bài đăng nhỏ mới ...
+      post: Đăng
+    user_info:
+      micropost: bài đăng nhỏ
+      view _my_profile: Xem hồ sơ của tôi
   static_pages:
     about:
       and: và
@@ -94,7 +114,7 @@ vi:
       part: một phần của
       ror: Ruby on Rails
       scr: screencast series
-      the: " "
+      the: ' '
       this: Đây là ứng dụng mẫu cơ bản để hướng dẫn
       title: Về chúng tôi
       to: để dạy phát triển web với
@@ -106,13 +126,14 @@ vi:
       title: Liên hệ
     help:
       book: Ruby on Rails Tutorial.
-      get: "Nhận trợ giúp về hướng dẫn Ruby on Rails tại trang "
+      get: 'Nhận trợ giúp về hướng dẫn Ruby on Rails tại trang '
       heading: Trợ giúp
       page: Rails Tutorial.
-      see: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem trong sách "
+      see: 'Để nhận trợ giúp về ứng dụng mẫu này, hãy xem trong sách '
       title: Trợ giúp
     home:
       heading: Ứng dụng mẫu
+      micropost_feed: Bảng tin bài đăng nhỏ
       sample: .
       sign_up_now: Đăng ký ngay!
       this: Đây là trang chủ cho ứng dụng mẫu
@@ -121,15 +142,15 @@ vi:
   the_form_contains: Form có
   user_mailer:
     account_activation:
-      activate: "Kích hoạt "
-      hi: "Xin chào "
-      sample_app: "Ứng dụng mẫu "
+      activate: 'Kích hoạt '
+      hi: 'Xin chào '
+      sample_app: 'Ứng dụng mẫu '
       welcome: Chào mừng đến với ứng dụng mẫu. Click vào link bên dưới để kích hoạt tài khoản
     password_reset:
       link_exprie: Link này có hiệu lực trong 2 giờ.
       not_reset: Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ.
       password_reset: Đặt lại mật khẩu
-      password_reset_link: "Để đặt lại mật khẩu cần click vào link dưới đây:"
+      password_reset_link: 'Để đặt lại mật khẩu cần click vào link dưới đây:'
       reset password: Đặt lại mật khẩu
   users:
     create:
@@ -173,3 +194,7 @@ vi:
     user:
       delete: Xoá
       you_sure?: Bạn chắc chắn chưa?
+  errors:
+    messages:
+      invalid_pic: Phải là một định dạng hình ảnh hợp lệ
+      less_than_mb: Nên nhỏ hơn 5MB

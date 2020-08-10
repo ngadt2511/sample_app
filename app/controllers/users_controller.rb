@@ -13,9 +13,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    return if @user.activated
-
-    redirect_to root_path
+    @microposts = @user.microposts.page(params[:page]).per Settings.pages.limit
   end
 
   def create

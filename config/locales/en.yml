@@ -1,4 +1,7 @@
 en:
+  <%= @user:
+    microposts:
+      count %>: Microposts
   You sure?: You sure?
   account_activations:
     edit:
@@ -7,6 +10,9 @@ en:
   author: Michael Hartl
   error: Error
   hello_world: Hello world
+  application:
+    logged_in_user:
+      please_log_in: Please log in
   layouts:
     application:
       en: English
@@ -36,9 +42,17 @@ en:
   mailers:
     password_reset:
       password_reset: Password reset
-    user_mailer:
-      account_activation:
-        account_activation: Account activation
+  microposts:
+    destroy:
+      micropost_deleted: Micropost deleted
+    micropost:
+      ago: ago
+      delete: Delete
+      posted: Posted
+      you_sure: You sure?
+    save_micropost:
+      micropost_created: Micropost created
+      micropost_fail: Micropost create fail
   news: News
   password: Password
   password_confirmation: Password Confirmation
@@ -53,14 +67,14 @@ en:
       password: Password
       reset_password: Reset password
       update_password: Update password
+    get_user:
+      not_found: User not found.
     new:
       forgot_password: Forgot password
       submit: Submit
     update:
       can't_be _empty: Can't be empty
       pw_reset: Password has been reset
-    get_user:
-      not_found: User not found.
   remember_me: Remember me
   sessions:
     create:
@@ -84,6 +98,12 @@ en:
       settings: Settings
       the_form_contains: The form contains
       users: Users
+    micropost_form:
+      compose_new_micropost: Compose new micropost ...
+      post: Post
+    user_info:
+      micropost: micropost
+      view _my_profile: View my profile
   static_pages:
     about:
       and: and
@@ -113,6 +133,7 @@ en:
       title: Help
     home:
       heading: Sample App
+      micropost_feed: Micropost feed
       sample: sample application.
       sign_up_now: Sign up now!
       this: This is the home page for the
@@ -173,3 +194,7 @@ en:
     user:
       delete: Delete
       you_sure?: You sure?
+  errors:
+    messages:
+      invalid_pic: must be a valid image format
+      less_than_mb: should be less than 5MB
