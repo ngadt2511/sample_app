@@ -23,6 +23,7 @@ users:
     gravatar_link: https://gravatar.com/emails
   index:
     size_gravatar: 50
+  size: 30
 checkbox: 1
 pagination: 10
 time:
@@ -42,3 +43,5 @@ image:
 static_pages:
   home:
     image_size: 200px
+posts:
+  content_type: /%w(image/jpeg image/gif image/png)/
