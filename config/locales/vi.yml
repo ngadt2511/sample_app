@@ -7,12 +7,16 @@ vi:
     edit:
       account_activated: Tài khoản đã được kích hoạt.
       invalid_link: Liên kết kích hoạt không hợp lệ.
-  author: Michael Hartl
-  error: Lỗi
-  hello_world: Xin chào thế giới
   application:
     logged_in_user:
       please_log_in: Hãy đăng nhập
+  author: Michael Hartl
+  error: Lỗi
+  errors:
+    messages:
+      invalid_pic: Phải là một định dạng hình ảnh hợp lệ
+      less_than_mb: Nên nhỏ hơn 5MB
+  hello_world: Xin chào thế giới
   layouts:
     application:
       en: Tiếng Anh
@@ -101,6 +105,9 @@ vi:
     micropost_form:
       compose_new_micropost: Soạn bài đăng nhỏ mới ...
       post: Đăng
+    stats:
+      followers: người theo dõi
+      following: theo dõi
     user_info:
       micropost: bài đăng nhỏ
       view _my_profile: Xem hồ sơ của tôi
@@ -169,6 +176,12 @@ vi:
       update: Cập nhật hồ sơ của bạn
     find_user:
       not_found: Không tìm thấy người dùng
+    follow:
+      follow: Theo dõi
+    followers:
+      followers_title: Người theo dõi
+    following:
+      following_title: Đang theo dõi
     form:
       confirmation: Xác nhận mật khẩu
       create_my_account: Tạo tài khoản của tôi
@@ -189,12 +202,13 @@ vi:
       sign_up_page: Đây sẽ là một trang đăng ký cho người dùng mới.
     show:
       fail_show: Không tìm thấy tài khoản
+    show_follow:
+      microposts: Bài đăng nhỏ
+      view_my_profile: Xem thông tin của tôi
+    unfollow:
+      unfollow: Bỏ theo dõi
     update:
       success: Hồ sơ đã được cập nhật
     user:
       delete: Xoá
       you_sure?: Bạn chắc chắn chưa?
-  errors:
-    messages:
-      invalid_pic: Phải là một định dạng hình ảnh hợp lệ
-      less_than_mb: Nên nhỏ hơn 5MB

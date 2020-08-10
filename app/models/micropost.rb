@@ -12,7 +12,7 @@ class Micropost < ApplicationRecord
   validates :user_id, presence: true
   validates :content, presence: true, length: {maximum:
     Settings.micropost.content.max_length}
-  validates :image, content_type: {in: %w(image/jpeg image/gif image/png),
+  validates :image, content_type: {in: Settings.posts.content_type,
                                    message: I18n.t("errors.messages.invalid_pic")},
     size: {less_than: Settings.files.pic_size.megabytes,
            message: I18n.t("errors.messages.less_than_mb", count: Settings.files.pic_size)}
